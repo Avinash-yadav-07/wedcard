@@ -296,3 +296,16 @@ html, body { background:#eee3d1; color:#34271a; }
 .hero-title-block h1,.story-copy h2,.section-heading h2,.invitation-border h2,.closing-section h2,.event-name-block h3,.venue-preview h3,.lightbox-figure figcaption { color:#2c1e13; }
 .hero-ampersand,.story-copy h2 em,.section-heading h2 em,.invitation-border h2 em,.closing-section h2 em,.countdown-number,.event-number,.event-details svg { color:#65420d; }
 .event-details,.message-names,.location-link,.venue-map-link,.location-button,.closing-names,.closing-footer a,.music-toggle,.lightbox-close,.lightbox-previous,.lightbox-next { color:#392713!important; }
+
+
+/* Slightly larger type for the family invitation lines only. */
+.hero-eyebrow { font-size:13px; }
+.family-line { font-size:15px; }
+@media (max-width:760px) {
+  .hero-eyebrow { font-size:12px; }
+  .family-line { font-size:13px; }
+}
+/* Darken only the family invitation copy for contrast. */
+.hero-eyebrow { color:#35200c!important; }
+.family-line { color:#302116!important; }
+.family-line span { color:#56370b!important; }
